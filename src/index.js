@@ -2,7 +2,6 @@ import React, { Navigator } from 'react-native';
 
 import RouterRegistry from './RouterRegistry';
 import Router from './Router';
-import * as actions from './actions'
 
 const BACK = 'BACK';
 const FORWARD = 'FORWARD';
@@ -10,5 +9,6 @@ const FORWARD = 'FORWARD';
 export {
   Router,
   RouterRegistry,
-  actions
 }
+import {push, pop} from './actions'
+export {push, pop}
