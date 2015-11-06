@@ -1,6 +1,6 @@
 import {ROUTER_PUSH, ROUTER_POP} from './actions'
 var initialState = {
-  routeStack: []
+  routeStack: [{path: '/'}]
 };
 
 export default function route(state=initialState, action={}) {

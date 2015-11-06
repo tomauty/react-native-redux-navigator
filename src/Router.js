@@ -15,7 +15,6 @@ class Router extends React.Component {
   constructor(props) {
     super(props)
     // Set initial route to match navigator.currentRoutes() with initialRoute
-    this.props.dispatch(actions.push('/'))
   }
 
   componentWillReceiveProps(nextProps) {
