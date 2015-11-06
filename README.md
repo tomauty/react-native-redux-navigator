@@ -1,4 +1,4 @@
 # react-native-redux-navigator
-Redux driven &lt;Navigator>
+Redux driven <Navigator> element which pops() and pushes() to the navigator stuck according to redux store of route stack.
 
-Work in progress... still not fully working
+Some discussion is [happening here](https://github.com/rackt/redux/issues/404)
